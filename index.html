@@ -1,38 +1,144 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research Desk</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="container nav">
-<h1>Research Desk</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="reports.html">Research</a>
-<a href="about.html">About</a>
-<button id="themeToggle">🌙</button>
-</nav>
+
+<header class="navbar">
+  <div class="container nav-content">
+
+    <div class="logo">
+      <h2>Research Desk</h2>
+      <span>by Tanishq</span>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reports.html">Research</a>
+      <a href="reports.html">Archive</a>
+      <a href="about.html">About</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+
+  </div>
 </header>
 
-<main class="container hero">
-<h2>Research on Indian Equities, IPOs and Industries</h2>
-<p>Independent long-form research and analysis.</p>
-<a class="btn" href="reports.html">Browse Research</a>
-</main>
+<section class="hero">
 
-<section class="container">
-<h3>Featured Research</h3>
-<div class="card">
-<h4>Sample Research Report</h4>
-<p>A sample report template to get started.</p>
-<a href="reports/sample-report.html">Read Report →</a>
-</div>
+  <div class="container">
+
+    <h1>
+      Research on Indian Equities,
+      IPOs and Industries
+    </h1>
+
+    <p>
+      Independent long-form research focused on
+      business quality, industry structure and valuation.
+    </p>
+
+    <a href="reports.html" class="btn">
+      Browse Research
+    </a>
+
+  </div>
+
 </section>
 
-<footer class="container footer">© 2026 Research Desk · By Tanishq</footer>
+<section class="container">
+
+  <h3 class="section-title">
+    Featured Research
+  </h3>
+
+  <div class="featured-card">
+
+    <div>
+
+      <span class="badge">
+        Featured
+      </span>
+
+      <h2>
+        First Research Report
+      </h2>
+
+      <p>
+        Detailed equity research and investment
+        thesis on Indian listed companies.
+      </p>
+
+      <a href="reports/sample-report.html">
+        Read Report →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="container">
+
+  <h3 class="section-title">
+    Latest Research
+  </h3>
+
+  <div class="grid">
+
+    <div class="research-card">
+      <h4>Research Report</h4>
+      <p>12 min read</p>
+    </div>
+
+    <div class="research-card">
+      <h4>Coming Soon</h4>
+      <p>Future Coverage</p>
+    </div>
+
+    <div class="research-card">
+      <h4>Coming Soon</h4>
+      <p>Future Coverage</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="container about-preview">
+
+  <h3>About Research Desk</h3>
+
+  <p>
+    Independent research platform focused on
+    Indian listed companies, IPOs and industries.
+  </p>
+
+</section>
+
+<footer>
+
+  <div class="container">
+
+    © 2026 Research Desk
+
+  </div>
+
+</footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
+```
